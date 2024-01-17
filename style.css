@@ -1,82 +1,127 @@
-
 .block1{
-background-color: aqua;
-width: 175px;
-height: 100px;
-}
+    background-color: #02989f ;
+    width: 185px;
+    height: 100px;
+    }
+    
+    .block2{
+      background-color: #02989f;
+      width: 165px;
+      height: 100px;
+    }
+    
+    .block3{
+      background-color: #02989f;
+      width: 185px;
+      height: 100px;
+    }
+    
+    .block4{
+      background-color: #02989f;
+      width: 800px;
+      height: 210px;
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .block5{
+      background-color: #c9e265;
+      width: 800px;
+      height: 12px;
+      margin-top: 6px;
+    }
+    
+    .square{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 0 60px;
+    }
+    
+    .circle1{
+      position: absolute;
+      top: 12px;
+      left: 90px;
+    background-color: #ff8888;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    .circle2{
+      position: absolute;
+      top: 85px;
+      left: 90px;
+    background-color: #ff8888;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    .circle3{
+      position: absolute;
+      top:25px;
+      left: 290px;
+    background-color: #ff8888;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    .circle4{
+      position: absolute;
+      top: 80px;
+      left: 225px;
+    background-color: #ff8888;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    }
 
-.block2{
-  background-color: aqua;
-  width: 175px;
-  height: 100px;
-}
+    .circle5{
+      position: absolute;
+      top: 25px;
+      left: 155px;
+    background-color: #ffde59;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    }
 
-.block3{
-  background-color: aqua;
-  width: 175px;
-  height: 100px;
-}
+    .circle6{
+      position: absolute;
+      top: 150px;
+      left: 150px;
+    background-color: #ffde59;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .circle{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
 
-.block4{
-  background-color: aqua;
-  width: 800px;
-  height: 200px;
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
+    .triangle1 {
+    position: absolute;
+    top: 82px;
+    left: 340px;
+      width: 195px;
+      height: 245px;
+      background: #008038;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
 
-.block5{
-  background-color: greenyellow;
-  width: 800px;
-  height: 10px;
-  margin-top: 10px;
-}
-
-.square{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 0 60px;
-}
-
-.circle1{
-  position: absolute;
-  top: 20px;
-  left: 100px;
-background-color: red;
-border-radius: 50%;
-height: 30px;
-width: 30px;
-}
-.circle2{
-  position: absolute;
-  top: 85px;
-  left: 100px;
-background-color: red;
-border-radius: 50%;
-height: 30px;
-width: 30px;
-}
-.circle3{
-background-color: red;
-border-radius: 50%;
-height: 30px;
-width: 30px;
-}
-.circle4{
-background-color: red;
-border-radius: 50%;
-height: 70px;
-width: 70px;
-}
-
-.circle{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  .triangle2 {
+    position: absolute;
+    top: 168px;
+    left: 440px;
+    width: 180px;
+    height: 160px;
+    background: #c9e265;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
