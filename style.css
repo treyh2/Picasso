@@ -4,19 +4,19 @@
     height: 100px;
     }
     
-    .block2{
+.block2{
       background-color: #02989f;
       width: 165px;
       height: 100px;
     }
     
-    .block3{
+.block3{
       background-color: #02989f;
       width: 185px;
       height: 100px;
     }
     
-    .block4{
+.block4{
       background-color: #02989f;
       width: 800px;
       height: 210px;
@@ -26,85 +26,65 @@
       justify-content: space-between;
       align-items: center;
     }
-    
-    .block5{
+  
+.block5{
       background-color: #c9e265;
       width: 800px;
       height: 12px;
-      margin-top: 6px;
-    }
+      margin-top: 6px;}
     
-    .square{
+  .square{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: flex-end;
-      margin: 0 60px;
-    }
+      margin: 0 60px;}
+
+.yellowC{
+      position: absolute;
+    background-color: #ffde59;}
+.redC{
+      position: absolute;
+      background-color: #ff8888;
+      height: 30px;
+      width: 30px;}
     
-    .circle1{
-      position: absolute;
-      top: 12px;
-      left: 90px;
-    background-color: #ff8888;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    }
-    .circle2{
-      position: absolute;
-      top: 85px;
-      left: 90px;
-    background-color: #ff8888;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    }
-    .circle3{
-      position: absolute;
-      top:25px;
-      left: 290px;
-    background-color: #ff8888;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    }
-    .circle4{
-      position: absolute;
-      top: 80px;
-      left: 225px;
-    background-color: #ff8888;
+  .circle1{
+    top: 12px;
+    left: 90px;
+    border-radius: 50%;}
+
+  .circle2{
+    top: 85px;
+    left: 90px;
+    border-radius: 50%;}
+
+  .circle3{
+    top:25px;
+    left: 290px;
+    border-radius: 50%;}
+
+  .circle4{
+    top: 80px;
+    left: 225px;
     border-radius: 50%;
     height: 70px;
-    width: 70px;
-    }
+    width: 70px;}
 
-    .circle5{
-      position: absolute;
-      top: 25px;
-      left: 155px;
-    background-color: #ffde59;
+  .circle5{
+    top: 25px;
+    left: 155px;
     border-radius: 50%;
     height: 70px;
-    width: 70px;
-    }
+    width: 70px;}
 
-    .circle6{
-      position: absolute;
-      top: 150px;
-      left: 150px;
-    background-color: #ffde59;
+  .circle6{
+    top: 150px;
+    left: 150px;
     border-radius: 50%;
     height: 30px;
-    width: 30px;
-    }
+    width: 30px;}
     
-    .circle{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
 
     .triangle1 {
     position: absolute;
@@ -113,8 +93,7 @@
       width: 195px;
       height: 245px;
       background: #008038;
-      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  }
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
 
   .triangle2 {
     position: absolute;
@@ -123,5 +102,4 @@
     width: 180px;
     height: 160px;
     background: #c9e265;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
