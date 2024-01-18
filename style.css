@@ -103,3 +103,43 @@
     height: 160px;
     background: #c9e265;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+
+
+    .person1{
+      position: absolute;
+      top: 275px;
+      left: 80px;
+    
+    }
+
+    .person2{
+      position: absolute;
+      left: 110px;
+      top: 275px;
+    }
+
+    .person3{
+      position: absolute;
+      left: 140px;
+      top: 275px;
+    }
+
+    .person4{
+      position: absolute;
+      left: 170px;
+      top: 275px;
+    }
+
+    .person5{
+      position: absolute;
+      left: 200px;
+      top: 275px;
+    }
+
+    .person6{
+      position: absolute;
+      left: 230px;
+      top: 275px;
+    }
+
+  
